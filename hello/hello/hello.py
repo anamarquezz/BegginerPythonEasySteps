@@ -73,7 +73,7 @@ def print_string(str="Hello World", no_of_times=5):
 
 
 print_string("Hello World10", 10)
-'''
+
 
 
 def print_multiplication_table(table, start, end):
@@ -93,3 +93,36 @@ def method_to_understand_indentation():
 
 
 method_to_understand_indentation()
+
+
+# Methods return values
+
+
+def product_of_two_numbers(a, b):
+    product = a * b
+    return product
+
+
+product_of_two_numbers(1, 2)
+
+
+# method that returns sum of three integers
+def return_three_integers(a, b, c):
+    sum = a + b + c
+    return sum
+
+
+return_three_integers(3, 3, 3)
+
+
+# method that returns sum of three integers
+
+def return_third_angle_triangle(l1, l2):
+    angle = 180 - (l1 + l2)
+    return angle
+
+
+return_third_angle_triangle(50, 50)
+'''
+
+print("python Script")

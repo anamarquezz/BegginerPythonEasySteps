@@ -18,7 +18,7 @@ def numeric_data_types():
     floatnum = 2.5
     floatnum2 = 5
     print(f"float subs {floatnum} / {floatnum2} = {floatnum / floatnum2}")
-    print("\n Float sin decimal subs".format(floatnum // floatnum2))
+    print(f"\n Float sin decimal subs".format(floatnum // floatnum2))
 
     poww = 5
     poww2 = 2

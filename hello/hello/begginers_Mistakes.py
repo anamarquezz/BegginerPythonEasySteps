@@ -1,25 +1,30 @@
 
 
-#_________Mistakes Shadowing______________
+# _________Mistakes Shadowing______________
+import this
 sum([12, 34, 56])
 
 number1 = 10
 number2 = 20
-sum = number1 + number2 #provoca error al sustituir al metodo que existe con el mismo nombre
+# provoca error al sustituir al metodo que existe con el mismo nombre
+sum = number1 + number2
 sum_ = number1 + number2
 print(sum_)
-del sum #Eliminar variable con del
+del sum  # Eliminar variable con del
 
 # sum([12,34,56])
 print(sum([12, 34, 56]))
 
-#_________ Mistakes indentation ______________
+# _________ Mistakes indentation ______________
 
 i = 3
-if(i==3):
-#print(i) error
-    print(i)
-  #print(i) Error
+if(i == 3):
+    # print(i) error
+    print("something")
+  # print(i) Error
 
 
+# _________ Mistakes indentation ______________
 
+
+# _________ The Zen of Python, by Tim Peters ______________

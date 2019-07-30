@@ -7,7 +7,10 @@ class MotorByke:
         self.speed += how_much
 
     def decrease_speed(self, how_much):
-        self.speed += how_much
+        if(self.speed - how_much > 0):
+            self.speed += how_much
+        else:
+            print("Get a life")
 
 
 honda = MotorByke(50)
@@ -24,7 +27,7 @@ print(honda.speed)
 print(ducati.speed)
 
 
-honda.decrease_speed(150)
+honda.decrease_speed(300)
 ducati.decrease_speed(25)
 
 print("decrease")

@@ -1,11 +1,14 @@
-class Planet:
-    def __init__(self, name="Earth"):
-        self.speed = 10  # default value
-        self.name = name
-        self.distance_from_sun = 10000  # default value
+class Planet: #Calling methods inside method from the same Class
+    def rotate(selft):
+        print("rotate")
+
+    def revolve(self):
+        print("revolve")
+
+    def rotate_and_revolve(self):
+        self.rotate()
+        self.revolve()
 
 
 earth = Planet()
-print(earth.name, "\n")
-print(earth.speed, "\n")
-print(earth.distance_from_sun, "\n")
+earth.rotate_and_revolve()

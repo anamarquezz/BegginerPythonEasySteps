@@ -1,5 +1,5 @@
 class Planet: #Calling methods inside method from the same Class
-    def rotate(selft):
+    def rotate(self):
         print("rotate")
 
     def revolve(self):

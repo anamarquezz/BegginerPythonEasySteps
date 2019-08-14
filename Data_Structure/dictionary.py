@@ -27,7 +27,7 @@ class dictionary_data:
         for (key, value) in self.occurances.items():
             print(f"{key}: {value}")
 
-        print(f"\n\nDelete") Ant Antic
+        print(f"\n\nDelete")
 
         print(f"\n self.occurances => { self.occurances}")
         del self.occurances['a']

@@ -3,7 +3,7 @@
 # USD 50
 
 
-class CurrenciesDoNotMatchError(Exception):
+class CurrenciesDoNotMatchError(Exception): #custom raise Exception
     def __init__(self, message):
         super().__init__(message)
 

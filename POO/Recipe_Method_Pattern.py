@@ -29,4 +29,20 @@ class Recipe1(AbstractRecipe):
     def cleanup(self): pass
 
 
+class MicrowaveRecipe(AbstractRecipe):
+
+    def prepare(self):
+        print('do the dishes')
+        print('get raw materials')
+        print('switch on microwave')
+
+    def recipe(self):
+        print('execute the steps')
+
+    def cleanup(self):
+        print('switch off microwave')
+
+
 Recipe1().execute()
+print("--------------------------------------------------------")
+MicrowaveRecipe().execute()

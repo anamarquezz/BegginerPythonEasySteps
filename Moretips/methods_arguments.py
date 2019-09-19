@@ -14,9 +14,15 @@ example_method(25, "Ana")
 example_method(25, "String 1", "String 2", "string 3")
 example_method(25, "String 1", "String 2", "string 3", key='a', key2='b')
 example_method(25, "String 1", key='a', key2='b')
-example_method(key='a', key2='b', mandatory_parameter=25, default_parameter="String 1")
+example_method(key='a', key2='b', mandatory_parameter=25,
+               default_parameter="String 1")
 example_method(key='a', key2='b', mandatory_parameter=25,
                default_parameter="String 1")
 
-example_list = [1,2,3]
+example_list = [1, 2, 3, 4, 5, 6]
 example_method(example_list[0], example_list[1], example_list[2])
+example_method(*example_list)  # all values pass as arguments
+
+# keyworkarguments
+example_dict = {'a': '1', 'b': '2'}
+example_method(*example_list, **example_dict)

@@ -15,7 +15,7 @@ email2("subject", "great work", "Correo@correo", None, None)
 
 var = "123"
 if var is None:
-    print("do something").
+    print("do something")
 
 
 var = None

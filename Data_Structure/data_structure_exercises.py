@@ -18,6 +18,7 @@ class Student:
         print(f"Average: {sum(self.marks) / len(self.marks)}")
 
     def add_new_mark(self, num):
+        print("\n add_new_mark: ")
         self.marks.append(num)
         for mark in self.marks:
             print(f"mark: {mark}")
